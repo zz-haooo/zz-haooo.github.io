@@ -2,6 +2,7 @@ name: Render a CV
 # Disabled - only manual trigger
 on:
   workflow_dispatch:
+  # workflow_call:
   # push:
   #   branches:
   #     - main
@@ -11,8 +12,6 @@ on:
   #     - "assets/rendercv/design.yaml"
   #     - "assets/rendercv/locale.yaml"
   #     - "assets/rendercv/settings.yaml"
-  workflow_call:
-  workflow_dispatch:
 permissions:
   contents: write
 jobs:

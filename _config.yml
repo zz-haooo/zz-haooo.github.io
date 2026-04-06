@@ -9,15 +9,14 @@ last_name: Hao
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic homepage. Ph.D. student interested in AI and Data Mining.
-footer_text: >
-  © Copyright 2026 Zhezheng Hao.
+footer_text: ""
 keywords: academic, personal-homepage, AI, machine-learning, data-mining
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # no favicon emoji
 
 url: https://zz-haooo.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
