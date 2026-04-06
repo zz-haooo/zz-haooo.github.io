@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Zhejiang University
+subtitle:
 
 profile:
   align: right
