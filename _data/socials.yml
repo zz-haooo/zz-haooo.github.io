@@ -3,9 +3,9 @@
 email: your.email@example.com
 github_username: yourusername
 scholar_userid: your_google_scholar_id
-twitter_username: yourusername
+x_username: yourusername
 # linkedin_username: yourusername
 # dblp_url: https://dblp.org/pid/xxx/xxxx.html
 # orcid_id: 0000-0000-0000-0000
-cv_pdf: /assets/pdf/cv.pdf
+cv_pdf: /assets/pdf/example_pdf.pdf
 rss_icon: true
