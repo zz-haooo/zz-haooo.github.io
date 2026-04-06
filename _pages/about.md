@@ -29,11 +29,11 @@ I am a 1st-year Ph.D. student at ZLST lab in **Zhejiang University** supervised 
 
 My research interests include Agentic AI and Foundation Model, particularly in:
 
-- 🤖 **AI Agent**, **Agent Team**, **Context Engineering** and **Agent Memory**
+- 🤖 **Agent Reasoning**, **Agent Team**, **Context Engineering** and **Agent Memory**
 - 🧠 **Large Language Model**, **Post-training** and **Reinforcement Learning**
 
 💡 I am passionate about foundamental research that explores innovative thinking on cutting-edge problems and practical engineering that inspires real-world applications.
 
-🔬 Recently, I focus on the **Agent Teams and their applications in coding and research**.
+🔬 Recently, I focus on the **Agent Teams** and their applications in AI coding and AI research.
 
 💌 Please feel free to contact me if you would like to explore potential discussions or collaborations.
