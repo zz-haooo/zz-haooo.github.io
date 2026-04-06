@@ -32,8 +32,8 @@ My research interests include Agentic AI and Foundation Model, particularly in:
 - 🤖 **AI Agent**, Agent Team, Context Engineering, Agent Memory
 - 🧠 **Large Language Model**, Post-training and Reinforcement Learning
 
-💡 I am passionate about practical research that explores innovative applications and production-ready solutions.
+💡 I am passionate about foundamental research that inspires thinking on cutting-edge problems and practical engineering that explores innovative applications.
 
-🔬 Recently, I focus on the **foundations of AI agents and their applications in productivity, society and creation**.
+🔬 Recently, I focus on the **Agent Teams and their applications in coding and research**.
 
 💌 Please feel free to contact me if you would like to explore potential discussions or collaborations.
