@@ -1,8 +1,7 @@
 github_users:
-  - yourusername
+  - zz-haooo
 
 repo_description_lines_max: 2
 
-github_repos:
-  - yourusername/project-alpha
-  - yourusername/llm-agent-toolkit
+# github_repos:
+#   - zz-haooo/some-repo

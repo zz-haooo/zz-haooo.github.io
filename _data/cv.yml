@@ -1,97 +1,37 @@
 cv:
-  name: Your Name
-  label: Ph.D. Student
-  email: your.email@example.com
-  location: Your City
+  name: Zhezheng Hao
+  label: Researcher
+  email: haozhezheng@outlook.com
+  location: Zhejiang University
   image: ""
-  summary: A Ph.D. student interested in Agentic AI and Data Mining.
+  summary: Researcher at Zhejiang University interested in Machine Learning, LLM and LLM Agent.
 
   social_networks:
     - network: GitHub
-      username: yourusername
-    - network: LinkedIn
-      username: yourusername
+      username: zz-haooo
 
   sections:
     Education:
-      - institution: Your University
-        location: Your City
-        url: https://example.com
+      - institution: Zhejiang University
+        location: Hangzhou, China
+        url: https://www.zju.edu.cn/
         area: Computer Science
-        studyType: Ph.D.
-        start_date: 2025
+        studyType: Student
+        start_date: 2020
         end_date: Present
         highlights:
-          - "Advised by Prof. Advisor Name"
-          - "Research: Agentic AI, Data Mining"
-
-      - institution: University A
-        location: City A
-        area: Computer Science
-        studyType: M.S.
-        start_date: 2022
-        end_date: 2025
-        highlights:
-          - "GPA: 3.9/4.0"
-
-      - institution: University B
-        location: City B
-        area: Software Engineering
-        studyType: B.E.
-        start_date: 2018
-        end_date: 2022
-        highlights:
-          - "Outstanding Graduate"
-
-    Experience:
-      - company: Company A
-        position: Research Intern
-        location: City
-        start_date: 2025
-        end_date: Present
-        summary: Working on Agentic AI and LLM applications.
-        highlights:
-          - "Multi-agent systems"
-          - "Large Language Models"
-
-      - company: Company B
-        position: Research Intern
-        location: City
-        start_date: 2024
-        end_date: 2024
-        highlights:
-          - "Reinforcement Learning"
-          - "Network optimization"
-
-      - company: Company C
-        position: Research Intern
-        location: City
-        start_date: 2023
-        end_date: 2023
-        highlights:
-          - "Data mining"
-          - "Social computing"
-
-    Awards:
-      - title: Best Paper Award
-        date: 2025
-        awarder: ICML 2025 Workshop on ML for Wireless
-        summary: Best paper award (1/33 submissions).
-
-      - title: Outstanding Graduate
-        date: 2025
-        awarder: University A
+          - "Research: Machine Learning, LLM, LLM Agent"
 
     Skills:
       - name: Machine Learning
         level: Expert
         icon: fa-solid fa-robot
-        keywords: "Deep Learning, Reinforcement Learning, LLM, Multi-agent Systems"
+        keywords: "Deep Learning, LLM, LLM Agent, RLVR, Graph Learning, Clustering, SVM"
 
       - name: Programming
         level: Expert
         icon: fa-solid fa-code
-        keywords: "Python, PyTorch, C++, Linux"
+        keywords: "Python, PyTorch, Linux"
 
     Languages:
       - name: Chinese

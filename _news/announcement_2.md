@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-01-20 00:00:00+0800
+date: 2025-04-01 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-🌟 One paper is accepted to **ICLR 2026**!
+🌟 Two papers accepted to **WWW 2025**: "Uncertainty-aware Graph Structure Learning" and "Towards Expansive and Adaptive Hard Negative Mining"!

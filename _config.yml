@@ -278,8 +278,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Name]
-  first_name: [Your, Y.]
+  last_name: [Hao]
+  first_name: [Zhezheng, Z.]
 
   style: apa
   locale: en

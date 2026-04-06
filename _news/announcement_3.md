@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-01 00:00:00+0800
+date: 2025-02-01 00:00:00+0800
 inline: true
 related_posts: false
 ---
 
-✨ One paper is accepted to **KDD 2026**!
+✨ One paper accepted to **AAAI 2025**: "Language Pre-training Guided Masking Representation Learning for Time Series Classification"!

@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student @ <a href='#'>Your University</a>
+subtitle: <a href='https://www.zju.edu.cn/'>Zhejiang University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>💌 your.email@example.com</p>
+    <p>💌 haozhezheng@outlook.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,11 +25,12 @@ latest_posts:
   limit: 3
 ---
 
-I am a 1st-year Ph.D. student at [Your University](#), advised by [Prof. Advisor Name](#). Before that, I received my M.S. degree from [University A](#) in 2025, and B.E. degree from [University B](#) in 2022.
+I am Zhezheng Hao (郝喆铮), a student at [Zhejiang University](https://www.zju.edu.cn/). My research interests lie in **Machine Learning**, **Large Language Models (LLMs)**, and **LLM Agents**.
 
-I was fortunate to intern at [Company A](#) (current), [Company B](#), and [Company C](#).
+I have published papers at top-tier venues including **AAAI**, **WWW**, **TKDE**, **Information Fusion**, **ICASSP**, etc.
 
 #### 💡 Research Interests
 
-- 🤖 **Agentic AI**: AI Agent, Reinforcement Learning, Large Language Models
-- 🌱 **Data Mining**: Social Computing, Combinatorial Optimization on Networks
+- 🤖 **Large Language Models**: LLM Agents, Reinforcement Learning from Verbal Reasoning (RLVR), Code LLMs
+- 🧠 **Machine Learning**: Multi-view Learning, Graph Learning, Clustering, Support Vector Machines
+- 📊 **Data Mining**: Graph Contrastive Learning, Time Series Classification
