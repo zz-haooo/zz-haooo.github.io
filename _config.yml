@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zhezheng
 middle_name:
 last_name: Hao
-contact_note: >
-  Feel free to reach out via email.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic homepage. Ph.D. student interested in AI and Data Mining.
 footer_text: >
