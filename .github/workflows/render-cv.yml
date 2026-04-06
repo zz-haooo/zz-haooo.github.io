@@ -1,14 +1,16 @@
 name: Render a CV
+# Disabled - only manual trigger
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+  #   paths:
+  #     - "_data/cv.yml"
+  #     - "assets/rendercv/design.yaml"
+  #     - "assets/rendercv/locale.yaml"
+  #     - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:
