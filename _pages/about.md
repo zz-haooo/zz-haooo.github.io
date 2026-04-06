@@ -25,12 +25,15 @@ latest_posts:
   limit: 3
 ---
 
-I am Zhezheng Hao (郝喆铮), a student at [Zhejiang University](https://www.zju.edu.cn/). My research interests lie in **Machine Learning**, **Large Language Models (LLMs)**, and **LLM Agents**.
+I am a 1st-year Ph.D. student at ZLST lab in **Zhejiang University** supervised by [Prof. Jiawei Chen](https://jiawei-chen.github.io/). Previously, I received my M.S. degree from **NWPU** in 2025 under the supervision of [Prof. Feiping Nie](https://scholar.google.com/citations?user=2oB4nAIAAAAJ&hl=en). I am currently a research intern at **Codebuddy, Tencent**.
 
-I have published papers at top-tier venues including **AAAI**, **WWW**, **TKDE**, **Information Fusion**, **ICASSP**, etc.
+My research interests include Agentic AI and Foundation Model, particularly in:
 
-#### 💡 Research Interests
+- 🤖 **AI Agent**, Agent Team, Context Engineering, Agent Memory
+- 🧠 **Large Language Model**, Post-training and Reinforcement Learning
 
-- 🤖 **Large Language Models**: LLM Agents, Reinforcement Learning from Verbal Reasoning (RLVR), Code LLMs
-- 🧠 **Machine Learning**: Multi-view Learning, Graph Learning, Clustering, Support Vector Machines
-- 📊 **Data Mining**: Graph Contrastive Learning, Time Series Classification
+💡 I am passionate about practical research that explores innovative applications and production-ready solutions.
+
+🔬 Recently, I focus on the **foundations of AI agents and their applications in productivity, society and creation**.
+
+💌 Please feel free to contact me if you would like to explore potential discussions or collaborations.
