@@ -1,34 +1,75 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"chen":
+  - firstname: ["Jiawei"]
+    url: https://jiawei-chen.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"nie":
+  - firstname: ["Feiping", "F."]
+    url: https://scholar.google.com/citations?user=2oB4nAIAAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"wang":
+  - firstname: ["Hong"]
+    url:
+  - firstname: ["Rong"]
+    url:
+  - firstname: ["Can"]
+    url:
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"dong":
+  - firstname: ["Hande"]
+    url:
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"lin":
+  - firstname: ["Qiang"]
+    url:
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"zhang":
+  - firstname: ["Jianqing"]
+    url:
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"zhou":
+  - firstname: ["Yuyan"]
+    url:
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"luo":
+  - firstname: ["Jian"]
+    url:
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"xin":
+  - firstname: ["Haonan"]
+    url:
+
+"tang":
+  - firstname: ["Liaoyuan"]
+    url:
+
+"wei":
+  - firstname: ["Chenxing"]
+    url:
+  - firstname: ["Long"]
+    url:
+
+"li":
+  - firstname: ["Xuelong"]
+    url:
+  - firstname: ["Guoxu"]
+    url:
+
+"lu":
+  - firstname: ["Zhoumin"]
+    url:
+
+"han":
+  - firstname: ["Shen"]
+    url:
+
+"ma":
+  - firstname: ["Lu"]
+    url:
+
+"yu":
+  - firstname: ["Jiarui"]
+    url:
+
+"shu":
+  - firstname: ["Yao"]
+    url:

@@ -25,7 +25,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a 1st-year Ph.D. student at ZLST lab in **Zhejiang University** supervised by [Prof. Jiawei Chen](https://jiawei-chen.github.io/). Previously, I received my M.S. degree from **NWPU** in 2025 under the supervision of [Prof. Feiping Nie](https://scholar.google.com/citations?user=2oB4nAIAAAAJ&hl=en). I am the core contributor of [ReCreate](https://github.com/zz-haooo/ReCreate) and [MindOS](https://github.com/GeminiLight/MindOS). I am currently a research intern at **Codebuddy, Tencent**.
+I am a 1st-year Ph.D. student at ZLST lab in **Zhejiang University** supervised by [Prof. Jiawei Chen](https://jiawei-chen.github.io/). Previously, I received my M.S. degree from **Northwestern Polytechnical University** in 2025 under the supervision of [Prof. Feiping Nie](https://scholar.google.com/citations?user=2oB4nAIAAAAJ&hl=en). I am the core contributor of [ReCreate](https://github.com/zz-haooo/ReCreate) and [MindOS](https://github.com/GeminiLight/MindOS). I am currently a research intern at **Codebuddy Team, Tencent**.
 
 My research interests include **Agentic AI** and **Foundation Models**, particularly in:
 

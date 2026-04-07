@@ -1,9 +1,27 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ACL":
+  url: https://aclanthology.org/
+  color: "#d62728"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICLR":
+  url: https://iclr.cc/
+  color: "#2ca02c"
 
-"Vision":
-  color: "#009f36"
+"AAAI":
+  url: https://aaai.org/
+  color: "#1f77b4"
+
+"WWW":
+  url: https://www2024.thewebconf.org/
+  color: "#ff7f0e"
+
+"TKDE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69
+  color: "#9467bd"
+
+"ICASSP":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings
+  color: "#8c564b"
+
+"Inf. Fusion":
+  url: https://www.sciencedirect.com/journal/information-fusion
+  color: "#e377c2"

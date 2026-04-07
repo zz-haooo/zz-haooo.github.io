@@ -1,10 +1,10 @@
 cv:
   name: Zhezheng Hao
-  label: Researcher
+  label: Ph.D. Student
   email: haozhezheng@outlook.com
-  location: Zhejiang University
+  location: Zhejiang University, Hangzhou, China
   image: ""
-  summary: Researcher at Zhejiang University interested in Machine Learning, LLM and LLM Agent.
+  summary: Ph.D. student at Zhejiang University interested in Agentic AI and Foundation Models.
 
   social_networks:
     - network: GitHub
@@ -16,11 +16,33 @@ cv:
         location: Hangzhou, China
         url: https://www.zju.edu.cn/
         area: Computer Science
-        studyType: Student
-        start_date: 2020
+        studyType: Ph.D.
+        start_date: 2025
         end_date: Present
         highlights:
-          - "Research: Machine Learning, LLM, LLM Agent"
+          - "Supervisor: Prof. Jiawei Chen"
+          - "Research: Agentic AI, Foundation Models, RLVR"
+
+      - institution: Northwestern Polytechnical University (NWPU)
+        location: Xi'an, China
+        url: https://www.nwpu.edu.cn/
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - "Supervisor: Prof. Feiping Nie"
+          - "Research: Machine Learning, Graph Learning, Clustering"
+
+    Work Experience:
+      - institution: Tencent (Codebuddy)
+        location: Shenzhen, China
+        area: Research Intern
+        studyType: ""
+        start_date: 2025
+        end_date: Present
+        highlights:
+          - "Research on Agent Teams and AI Coding"
 
     Skills:
       - name: Machine Learning
