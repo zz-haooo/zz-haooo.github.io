@@ -603,3 +603,46 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// News collapsible (home page: show 2 latest items + a dropdown for the rest)
+.news {
+  .news-collapsible {
+    margin-top: -0.5rem;
+
+    > summary {
+      cursor: pointer;
+      list-style: none;
+      display: inline-block;
+      padding: 0.15rem 0;
+      color: var(--global-theme-color);
+      font-size: 0.95rem;
+      user-select: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      .news-collapsible-hide {
+        display: none;
+      }
+    }
+
+    &[open] > summary {
+      .news-collapsible-show {
+        display: none;
+      }
+      .news-collapsible-hide {
+        display: inline;
+      }
+    }
+
+    .news-table-collapsed {
+      margin-top: 0.4rem;
+      margin-bottom: 0;
+    }
+  }
+}
