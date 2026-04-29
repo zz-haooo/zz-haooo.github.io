@@ -616,9 +616,9 @@ mjx-container[jax="CHTML"][display="true"] {
       justify-content: center;
       align-items: center;
       width: 100%;
-      padding: 0.35rem 0;
+      padding: 0.5rem 0;
       color: var(--global-text-color);
-      opacity: 0.55;
+      opacity: 0.45;
       transition:
         opacity 0.2s ease,
         color 0.2s ease;
@@ -635,9 +635,14 @@ mjx-container[jax="CHTML"][display="true"] {
         color: var(--global-theme-color);
       }
 
+      // Pure-CSS down-pointing triangle (no SVG, immune to HTML minifiers)
       .news-chevron {
-        width: 22px;
-        height: 22px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 7px solid currentColor;
         transition: transform 0.25s ease;
       }
     }
