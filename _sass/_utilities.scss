@@ -604,40 +604,46 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
 
-// News collapsible (home page: show 2 latest items + a dropdown for the rest)
+// News collapsible (home page: show 2 latest items + a centered chevron toggle for the rest)
 .news {
   .news-collapsible {
-    margin-top: -0.5rem;
+    margin-top: 0.25rem;
 
     > summary {
       cursor: pointer;
       list-style: none;
-      display: inline-block;
-      padding: 0.15rem 0;
-      color: var(--global-theme-color);
-      font-size: 0.95rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0.35rem 0;
+      color: var(--global-text-color);
+      opacity: 0.55;
+      transition:
+        opacity 0.2s ease,
+        color 0.2s ease;
       user-select: none;
 
-      &::-webkit-details-marker {
+      &::-webkit-details-marker,
+      &::marker {
         display: none;
+        content: "";
       }
 
       &:hover {
-        opacity: 0.8;
+        opacity: 1;
+        color: var(--global-theme-color);
       }
 
-      .news-collapsible-hide {
-        display: none;
+      .news-chevron {
+        width: 22px;
+        height: 22px;
+        transition: transform 0.25s ease;
       }
     }
 
-    &[open] > summary {
-      .news-collapsible-show {
-        display: none;
-      }
-      .news-collapsible-hide {
-        display: inline;
-      }
+    &[open] > summary .news-chevron {
+      transform: rotate(180deg);
     }
 
     .news-table-collapsed {

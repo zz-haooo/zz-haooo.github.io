@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌟 Two papers accepted to **IEEE TKDE** and **IEEE TIP**! Congratulations to the team!
+🌟 Two papers accepted to **IEEE TKDE** and **IEEE TIP**!

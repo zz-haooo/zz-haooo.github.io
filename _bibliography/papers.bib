@@ -2,8 +2,35 @@
 ---
 
 % ============================================================
-% 2026 - ACL
+% 2026
+% Order within the year is controlled by physical order in this
+% file (jekyll-scholar default). Conferences first, then journals;
+% within conferences: ICLR -> ACL main -> ACL Findings.
 % ============================================================
+
+% ---------- Journals (TKDE / TIP) ----------
+
+@article{xin2026lspcla,
+  abbr      = {TKDE},
+  title     = {LSPC-LA: Local Structure Preserving Clustering with Learnable Anchors},
+  author    = {Xin, Haonan and Chen, Haoming and Hao, Zhezheng and Wu, Danyang and Wang, Rong and Nie, Feiping},
+  journal   = {IEEE TKDE},
+  year      = {2026},
+  selected  = {true},
+  abstract  = {We propose LSPC-LA, an anchor-based clustering framework that jointly learns adaptive anchors and preserves the local manifold structure of the data, achieving scalable and accurate clustering on large-scale datasets.}
+}
+
+@article{xin2026simmtc,
+  abbr      = {TIP},
+  title     = {SimMTC: Simple Multi-view Tensor Clustering},
+  author    = {Xin, Haonan and Hao, Zhezheng and Cao, Zhe and Zhao, Zihua and Wang, Rong and Nie, Feiping},
+  journal   = {IEEE TIP},
+  year      = {2026},
+  selected  = {true},
+  abstract  = {We propose SimMTC, a simple yet effective multi-view tensor clustering method that captures higher-order cross-view correlations through a unified tensor representation, delivering strong performance with a clean and efficient formulation.}
+}
+
+% ---------- ACL main ----------
 
 @inproceedings{hao2026entropy,
   abbr      = {ACL},
@@ -28,6 +55,8 @@
   abstract  = {We propose ReCreate, a framework for reasoning and creating domain agents driven by experience, enabling autonomous agent construction for complex real-world tasks.}
 }
 
+% ---------- ACL Findings ----------
+
 @inproceedings{zhou2026lepo,
   abbr      = {ACL},
   title     = {LEPO: Latent Reasoning Policy Optimization for Large Language Models},
@@ -50,8 +79,6 @@
   abstract  = {We propose GAPO, a robust advantage estimation method for real-world code LLMs.}
 }
 
-
-
 @inproceedings{zhang2026plugandplay,
   abbr      = {ACL},
   title     = {Plug-and-Play Data Module for Code RL: Adaptive Ambiguity Replay},
@@ -63,33 +90,7 @@
   abstract  = {We propose a plug-and-play data module for code reinforcement learning with adaptive ambiguity replay.}
 }
 
-% ============================================================
-% 2026 - Journals (TKDE / TIP)
-% ============================================================
-
-@article{xin2026lspcla,
-  abbr      = {TKDE},
-  title     = {LSPC-LA: Local Structure Preserving Clustering with Learnable Anchors},
-  author    = {Xin, Haonan and Chen, Haoming and Hao, Zhezheng and Wu, Danyang and Wang, Rong and Nie, Feiping},
-  journal   = {IEEE TKDE},
-  year      = {2026},
-  selected  = {true},
-  abstract  = {We propose LSPC-LA, an anchor-based clustering framework that jointly learns adaptive anchors and preserves the local manifold structure of the data, achieving scalable and accurate clustering on large-scale datasets.}
-}
-
-@article{xin2026simmtc,
-  abbr      = {TIP},
-  title     = {SimMTC: Simple Multi-view Tensor Clustering},
-  author    = {Xin, Haonan and Hao, Zhezheng and Cao, Zhe and Zhao, Zihua and Wang, Rong and Nie, Feiping},
-  journal   = {IEEE TIP},
-  year      = {2026},
-  selected  = {true},
-  abstract  = {We propose SimMTC, a simple yet effective multi-view tensor clustering method that captures higher-order cross-view correlations through a unified tensor representation, delivering strong performance with a clean and efficient formulation.}
-}
-
-% ============================================================
-% 2026 - ICLR
-% ============================================================
+% ---------- ICLR ----------
 
 @inproceedings{wang2026scheduling,
   abbr      = {ICLR},
@@ -102,6 +103,7 @@
   annotation = {* Equal contribution},
   abstract  = {We propose a reasoning tree-based scheduling method for LLM reinforcement learning.}
 }
+
 
 % ============================================================
 % 2025

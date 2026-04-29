@@ -37,11 +37,11 @@
     </div>
 
     {% if include.limit and news_size > visible_count %}
-      {% assign hidden_count = news_size | minus: visible_count %}
       <details class="news-collapsible">
-        <summary>
-          <span class="news-collapsible-show">Show {{ hidden_count }} more news ▾</span>
-          <span class="news-collapsible-hide">Hide ▴</span>
+        <summary aria-label="Toggle older news">
+          <svg class="news-chevron" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3.5 6 L8 10.5 L12.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </summary>
         <div class="table-responsive">
           <table class="table table-sm table-borderless news-table-collapsed">
