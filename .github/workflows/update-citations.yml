@@ -1,10 +1,13 @@
 name: Update Google Scholar Citations
 
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+  # NOTE: scheduled triggers were removed because scholarly() scrapes
+  # scholar.google.com via the public GitHub Actions runner IP range,
+  # which Google routinely blocks with CAPTCHA / 429, causing this
+  # workflow to fail almost every run and spam "Run failed" emails.
+  # Trigger it manually from the Actions tab when you want to refresh
+  # _data/citations.yml. (Or run `python bin/update_scholar_citations.py`
+  # locally and commit the result.)
   workflow_dispatch:
 
 jobs:
