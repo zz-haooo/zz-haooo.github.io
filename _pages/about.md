@@ -34,6 +34,6 @@ My research interests include **Agentic AI** and **Foundation Models**, particul
 
 💡 I am passionate about fundamental research that sparks new thinking on cutting-edge problems and practical engineering that inspires real-world applications.
 
-🔬 Recently, I focus on the **Agent Teams** and their applications in AI coding and AI research.
+🔬 Recently, I focus on **Agent's experience learning** and **continual learning** in real-world interaction.
 
 💌 Please feel free to contact me if you would like to explore potential discussions or collaborations.
