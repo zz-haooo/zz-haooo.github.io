@@ -73,6 +73,19 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Academic service -->
+    {% if page.academic_service %}
+      <h2>{{ page.academic_service.title | default: 'Academic Service' }}</h2>
+      <ul>
+        {% if page.academic_service.reviewers %}
+          <li><strong>Reviewer:</strong> {{ page.academic_service.reviewers | join: ', ' }}</li>
+        {% endif %}
+        {% if page.academic_service.pc_members %}
+          <li><strong>PC Member:</strong> {{ page.academic_service.pc_members | join: ', ' }}</li>
+        {% endif %}
+      </ul>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
