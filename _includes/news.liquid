@@ -37,11 +37,9 @@
     </div>
 
     {% if include.limit and news_size > visible_count %}
-      <details class="news-collapsible">
-        <summary aria-label="Toggle older news">
-          <span class="news-chevron" aria-hidden="true"></span>
-        </summary>
-        <div class="table-responsive">
+      <div class="news-collapsible">
+        <input type="checkbox" id="news-toggle" class="news-toggle-input" aria-label="Toggle older news">
+        <div class="table-responsive news-more">
           <table class="table table-sm table-borderless news-table-collapsed">
             {% for item in news offset: visible_count %}
               <tr>
@@ -57,7 +55,10 @@
             {% endfor %}
           </table>
         </div>
-      </details>
+        <label for="news-toggle" class="news-toggle" title="Show / hide older news">
+          <span class="news-chevron" aria-hidden="true"></span>
+        </label>
+      </div>
     {% endif %}
   {% else %}
     <p>No news so far...</p>

@@ -606,12 +606,43 @@ mjx-container[jax="CHTML"][display="true"] {
 
 // News collapsible (home page: show 2 latest items + a centered chevron toggle for the rest)
 .news {
-  .news-collapsible {
-    margin-top: 0.25rem;
+  margin-bottom: 2.5rem;
 
-    > summary {
+  .news-table-visible {
+    margin-bottom: 0;
+  }
+
+  .news-collapsible {
+    position: relative;
+
+    .news-toggle-input {
+      position: absolute;
+      opacity: 0;
+      width: 1px;
+      height: 1px;
+      pointer-events: none;
+    }
+
+    .news-more {
+      display: none;
+    }
+
+    .news-toggle-input:checked ~ .news-more {
+      display: block;
+    }
+
+    .news-toggle-input:checked ~ .news-toggle .news-chevron {
+      transform: rotate(180deg);
+    }
+
+    .news-toggle-input:focus-visible ~ .news-toggle {
+      opacity: 1;
+      outline: 1px dotted currentColor;
+    }
+
+    > .news-toggle {
+      margin: 0;
       cursor: pointer;
-      list-style: none;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -623,12 +654,6 @@ mjx-container[jax="CHTML"][display="true"] {
         opacity 0.2s ease,
         color 0.2s ease;
       user-select: none;
-
-      &::-webkit-details-marker,
-      &::marker {
-        display: none;
-        content: "";
-      }
 
       &:hover {
         opacity: 1;
@@ -647,12 +672,7 @@ mjx-container[jax="CHTML"][display="true"] {
       }
     }
 
-    &[open] > summary .news-chevron {
-      transform: rotate(180deg);
-    }
-
     .news-table-collapsed {
-      margin-top: 0.4rem;
       margin-bottom: 0;
     }
   }
