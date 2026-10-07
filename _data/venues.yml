@@ -2,6 +2,10 @@
   url: https://aclanthology.org/
   color: "#d62728"
 
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#7b2d8e"
+
 "ICLR":
   url: https://iclr.cc/
   color: "#2ca02c"
