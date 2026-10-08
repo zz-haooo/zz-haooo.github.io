@@ -30,6 +30,7 @@ academic_service:
     - ICML
     - NeurIPS
     - ICLR
+    - ACL
     - TPAMI
     - etc.
   pc_members:
