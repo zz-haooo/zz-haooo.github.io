@@ -33,7 +33,6 @@ academic_service:
     - TPAMI
     - etc.
   pc_members:
-    - WWW
     - AAAI
 ---
 
